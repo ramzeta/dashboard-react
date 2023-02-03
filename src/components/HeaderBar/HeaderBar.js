@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import "./HeaderBar.css";
 import image from '../../assets/images/byron-sonrriendo.png';
-import Image from "react-bootstrap";
+
 
 class HeaderBar extends React.Component {
   render() {
