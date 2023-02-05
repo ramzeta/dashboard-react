@@ -7,11 +7,11 @@ import Signup from "./components/Signup"
 function App() {
   return (
     <>
-    <HeaderBar></HeaderBar>
-    <SideNavBar>
-    <Signup></Signup>
-    </SideNavBar>
-    
+      <HeaderBar></HeaderBar>
+      <SideNavBar>
+        <Signup></Signup>
+      </SideNavBar>
+
     </>
   );
 }

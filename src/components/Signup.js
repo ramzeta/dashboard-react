@@ -5,7 +5,7 @@ import { Button, Form as FormBS, Container, Row, Col } from 'react-bootstrap';
 const MyForm = () => (
   <Container>
     <Row>
-      <Col xs={12} md={8}> 
+      <Col xs={12} md={8}>
         <Formik
           initialValues={{ email: '', password: '' }}
           validate={values => {
